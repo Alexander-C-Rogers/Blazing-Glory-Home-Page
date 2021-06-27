@@ -131,3 +131,28 @@ a:hover {
     border-top: 2px solid black;
     text-align: center;
 }
+
+/*contact us*/
+#contact {
+    margin-right: -2rem;
+}
+
+#contact h1{
+    font-family: 'Nunito Sans';
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container h2 p {
+    width: 70%;
+    flex-grow: 1;
+    text-align: center;
+    font-family: cursive;
+}
