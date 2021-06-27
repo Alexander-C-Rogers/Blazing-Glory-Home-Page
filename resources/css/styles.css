@@ -9,7 +9,7 @@ html {
     font-size: 16px;
 }
 
-/*header*/
+/*HEADER*/
 header {
     height: 5rem;
     width: 100%;
@@ -51,4 +51,28 @@ a:hover {
 .logo h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+}
+
+/*MAIN*/
+.main {
+    position: absolute;
+    top: 3.5rem;
+    width: 100%;
+    left: 0;
+}
+
+.main h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url(../img/sword-on-fire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: -2rem;
+    margin-right: -2rem;
+}
+
+.main h3 {
+    font-family: 'Tomorrow', sans-serif;
+    font-style: italic;
 }
